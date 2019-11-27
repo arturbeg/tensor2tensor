@@ -28,7 +28,6 @@ from tensor2tensor.utils import t2t_model
 
 import tensorflow as tf
 
-
 BATCH_NORM_DECAY = 0.9
 BATCH_NORM_EPSILON = 1e-5
 

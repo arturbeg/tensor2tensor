@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# interesting
 """Self-attention based language model.
 
 Like transformer.py, but no encoder
@@ -630,6 +631,7 @@ def attention_lm_moe_base_memeff():
 
 @registry.register_hparams
 def attention_lm_moe_small():
+  # interesting, could run on my Mac
   """Cheap model for single-gpu training.
 
   on lm1b_32k:
@@ -664,6 +666,7 @@ def attention_lm_moe_tiny():
 
 @registry.register_hparams
 def attention_lm_attention_moe_tiny():
+  # use for debugging
   """Cheap model for debugging.
 
   Returns:

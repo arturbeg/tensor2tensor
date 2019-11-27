@@ -117,7 +117,6 @@ def lmx_relative_nopos():
   hparams.pos = "none"
   return hparams
 
-
 @registry.register_hparams
 def lmx_moe():
   """Transformer with mixture of experts.  140M Params."""
