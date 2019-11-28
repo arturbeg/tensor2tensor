@@ -2,8 +2,9 @@
 ## Top-K Gaussian gating
 ## Mog loss calculation
 ## Augment the loss with the MoG Loss
-## update local moe
-
+## Update local moe
+## Deep GMM model trained separately then end-to-end
+## ...
 
 from __future__ import absolute_import
 from __future__ import division
@@ -17,6 +18,7 @@ from six.moves import zip  # pylint: disable=redefined-builtin
 
 from tensor2tensor.layers import common_layers
 from tensor2tensor.layers.vq_discrete import DiscreteBottleneck
+from tensor2tensor.utils.dgmm import dgmm
 
 import tensorflow as tf
 

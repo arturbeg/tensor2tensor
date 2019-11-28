@@ -24,7 +24,6 @@ import tensorflow as tf
 
 ModeKeys = tf.estimator.ModeKeys  # pylint: disable=invalid-name
 
-
 class AttentionType(object):
   """Enum of the attention layers types."""
   MULTIHEAD = "multihead"
